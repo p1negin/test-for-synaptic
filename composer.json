@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "classmap": [
+            "app"
+        ]
+    },
+    "name": "p1negin/test",
+    "authors": [
+        {
+            "name": "p1negin",
+            "email": "p1negin@protonmail.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
