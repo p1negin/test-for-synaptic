@@ -19,7 +19,7 @@ trait AuthorizationTrait
 
         $access_token_obj = $stmt->get_result()->fetch_object();
 
-        if (time() > $access_token_obj->keep_alive) {
+        if (isset($access_token_obj->keep_alive) && time() > $access_token_obj->keep_alive) {
             //todo: тут можно сделать проверку на refresh токен, если он тоже просрочен, то удалять оба токена
             return false;
         }
