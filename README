@@ -3,6 +3,7 @@
 Php 8.2
 MySQL 8.0
 Composer
+Apache2
 
 Маршруты дл тестирования системы:
 
